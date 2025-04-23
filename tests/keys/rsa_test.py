@@ -1,4 +1,4 @@
-from .rsa import RSAPublicKey
+from age.keys.rsa import RSAPublicKey
 
 PUBLIC_KEY = b"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDuprrgTYA9vv5Tl9JutkawBWsvgXaCB7VgmiPYFodQV6Lp/BeYfMRID7OsI2s+QFFSIwUMYFWsNzUPACChkXz0iTiPF3pON9FnvvPbhcPYZGJl+wmNJ1r9aB09w2cbgXSESn4dzIhxo/uXrWtClZlDtpVKknGshRanP2oQCS04ew== test key"
 

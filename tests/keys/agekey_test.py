@@ -1,5 +1,5 @@
-from ..primitives.x25519 import ECScalar
-from .agekey import AgePrivateKey, AgePublicKey
+from age.primitives.x25519 import ECScalar
+from age.keys.agekey import AgePrivateKey, AgePublicKey
 
 SPEC_TEST_BYTES = b"\x42" * 32
 SPEC_TEST_PUBLIC_KEY = "age1zvkyg2lqzraa2lnjvqej32nkuu0ues2s82hzrye869xeexvn73equnujwj"

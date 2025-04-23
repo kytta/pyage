@@ -3,7 +3,7 @@ from cryptography.hazmat.primitives.asymmetric import dsa, ec, ed25519, rsa
 from cryptography.hazmat.primitives.serialization import Encoding, PublicFormat, load_ssh_public_key
 from pytest import raises
 
-from .openssh_keys import WrongPassphrase, load_openssh_private_key
+from age.openssh_keys import WrongPassphrase, load_openssh_private_key
 
 RSA_PRIVATE_KEY = b"""-----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAlwAAAAdzc2gtcn

@@ -1,4 +1,4 @@
-from .hkdf import hkdf
+from age.primitives.hkdf import hkdf
 
 
 def test_hkdf():

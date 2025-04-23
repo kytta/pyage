@@ -1,4 +1,4 @@
-from .ed25519 import Ed25519PrivateKey, Ed25519PublicKey
+from age.keys.ed25519 import Ed25519PrivateKey, Ed25519PublicKey
 
 PUBLIC_KEY = (
     b"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDgEg0dirYJ1xRV3EkPFXQE7hYMs3cumY8qBzEE/1Xk4 test key"

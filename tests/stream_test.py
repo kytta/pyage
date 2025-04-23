@@ -2,7 +2,7 @@ import os
 
 from pytest import raises
 
-from .stream import _chunk, _pack_nonce, stream_decrypt, stream_encrypt
+from age.stream import _chunk, _pack_nonce, stream_decrypt, stream_encrypt
 
 
 def test_chunk():

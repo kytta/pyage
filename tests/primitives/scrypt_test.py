@@ -1,4 +1,4 @@
-from .scrypt import scrypt
+from age.primitives.scrypt import scrypt
 
 # vectors 1 & 2 are not applicable because of different r, p settings
 

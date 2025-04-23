@@ -1,4 +1,4 @@
-from .x25519 import ECPoint, ECScalar, x25519_scalarmult, x25519_scalarmult_base
+from age.primitives.x25519 import ECPoint, ECScalar, x25519_scalarmult, x25519_scalarmult_base
 
 
 def test_vector1():

@@ -2,7 +2,7 @@ import os
 
 from age.keys.rsa import RSAPrivateKey, RSAPublicKey
 
-from .rsa_oaep import rsa_decrypt, rsa_encrypt
+from age.primitives.rsa_oaep import rsa_decrypt, rsa_encrypt
 
 # 1024bit RSA keypair generated using ssh-keygen
 

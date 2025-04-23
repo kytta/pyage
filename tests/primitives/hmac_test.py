@@ -1,7 +1,7 @@
 from cryptography.exceptions import InvalidSignature
 from pytest import raises
 
-from .hmac import HMAC
+from age.primitives.hmac import HMAC
 
 
 def test_hmac_vector_1():
