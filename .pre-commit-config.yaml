@@ -1,4 +1,4 @@
-default_stages: [push]
+default_stages: [pre-push]
 default_language_version:
   python: python
 repos:
@@ -6,7 +6,7 @@ repos:
   hooks:
 
   - id: black
-    stages: [commit,push]
+    stages: [pre-commit,pre-push]
     name: Format source using black
     entry: pipenv run black -q
     files: "^src/.*\\.py$"
@@ -14,7 +14,7 @@ repos:
     language: system
 
   - id: isort
-    stages: [commit,push]
+    stages: [pre-commit,pre-push]
     name: Sort imports
     entry: pipenv run isort
     files: "^src/.*\\.py$"
@@ -22,7 +22,7 @@ repos:
     language: system
 
   - id: flake8
-    stages: [commit,push]
+    stages: [pre-commit,pre-push]
     name: Check for programming errors
     entry: pipenv run flake8
     files: "^src/.*\\.py$"
@@ -30,7 +30,7 @@ repos:
     language: system
 
   - id: mypy
-    stages: [commit,push]
+    stages: [pre-commit,pre-push]
     name: Check for type errors
     entry: pipenv run mypy --no-error-summary
     files: "^src/.*\\.py$"
